@@ -1,0 +1,26 @@
+{
+  "name": "feedback-sentiment-board",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Batch feedback triage and theme trend detection for CX teams.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "tsx scripts/test-import.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^6.0.5",
+    "typescript": "^5.6.3",
+    "vite": "^8.2.1"
+  }
+}
